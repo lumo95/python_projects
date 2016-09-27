@@ -4,7 +4,7 @@
 # Desc: A simple guess the word program, similar to the popular 'Hangman'
 
 guessWord = input("Please enter the hangman's word!\n").upper()  # word to be guessed
-display = ["*"] * len(guessWord)  # amount to astrix' to show
+display = ["*"] * len(guessWord)  # amount of astrix' to show
 userGuess = ""  # users guess
 
 guessLimit = 20
